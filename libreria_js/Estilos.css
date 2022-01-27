@@ -1,0 +1,363 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+BODY{
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+/*-----------------------------HEADER--------------------------*/
+.banner{
+   background-image: url("./img/27741.jpg") ;  
+    background-color: rgb(223, 80, 80);
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+nav{
+    padding: 1rem;
+}
+.menuSuperior{
+        list-style-type: none;
+        text-align: center; 
+
+       
+}
+.menuSuperior li{
+    display: inline-flex;
+   
+}
+.menuSuperior a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(104, 7, 7);
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 0.1rem;
+
+}
+.titulo{
+    color: rgb(255, 255, 255);
+     font-size: 4.5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 4rem;
+    text-align: center;
+
+}
+.contenido{
+    background-color: rgba(233, 99, 99, 0.116);
+    padding: 2rem;
+    font-size: 1rem;
+    line-height: 1.8rem;
+    text-align: justify;
+}
+.local{
+    display: flex;
+}
+.local img{
+    width: 30%;
+    padding: 1rem;
+
+}
+.bordesredondeados{
+    border-radius: 60px;
+}
+/*------------------------------FOOTER---------------------------*/
+
+footer{
+background-color: rgba(119, 20, 20, 0.541);
+    color: white;
+    padding: 2rem;
+
+}
+
+.bloqueFooter{
+    display: flex;
+    justify-content: space-around;
+
+}
+.menuFooter{
+    list-style-type: none;
+    text-align: justify;
+}
+.menuFooter a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
+
+.creditoFinal{
+    text-align: right;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: black;
+
+}
+/*------------------Contacto-----------*/
+header{
+    color: rgb(202, 39, 39);
+    font-family: sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: left;
+
+} 
+body{
+    background-color: rgb(224, 162, 118);
+
+}
+
+.contacto{
+    color: rgb(49, 22, 2);
+    padding: 1rem
+}
+.contacto_input{
+    width: 95%;
+    display: block;
+    margin: 0.5rem;
+    box-sizing: border-box;
+    padding: 0.7rem;
+    
+    
+
+}   
+.btnenviar{
+    background-color: rgb(128, 106, 9);
+    color: white;
+    width: 40%;
+    padding: 0.2rem;
+    margin: 1.5rem;
+
+}
+.formContacto{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 1px;
+
+}
+.formatoContacto input{
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 0px 5px 5px rgb(69, 8, 238) 
+
+}
+
+/*--------------------------------------- tienda--------*/
+.tienda_contenedor{
+    padding: 1rem;
+    
+}
+.img-chica{
+    width: 14rem;
+    padding: 1rem;
+}
+/* -------------------------------- Mobile first ----------------------*/
+@media (min-width: 420px){
+    .banner{
+    font-size: 1px;
+
+}
+.body{
+            font-size: 1rem;
+            background-color: wheat;
+}
+        .contenido{
+            display: flex;
+            flex-direction: column;
+            padding: 65px;
+            background-color: rgb(255, 230, 193);
+            text-align: justify; 
+}
+        
+        footer{
+            font-size: 1rem;
+            color: rgb(0, 0, 0);
+ }
+        .menuFooter{
+            font-size: 1rem;
+    }
+.titulo{
+    font-size: 3.5rem;
+}
+    }
+
+/* -------------------------------- Tabletas ----------------------*/
+@media (min-width: 768px){
+    .banner{
+    font-size: 1px;
+}
+.menuSuperior a{
+    background-color: rgb(46, 49, 49);
+
+}
+.body{
+            font-size: 1rem;
+            background-color: rgb(230, 0, 0);
+        }
+        .contenido{
+            display: flex;
+            flex-direction: column;
+            padding: 4rem;
+            background-color: rgb(190, 118, 10);
+            text-align: justify; 
+        }
+        
+        footer{
+            font-size: 1rem;
+            color: rgb(255, 255, 255);
+        }
+.creditoFinal{
+    color: rgb(245, 188, 0);
+}
+.titulo{
+    font-size: 5rem;
+}
+}
+
+/*---------------- Escritorios Normales ------------*/
+
+@media (min-width: 992px){
+    .banner{
+    font-size: 1px;
+}
+.menuSuperior a{
+    background-color: rgb(126, 126, 109);
+
+}
+.body{
+    font-size: 2rem;
+}
+    .contenido{
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            background-color: rgb(225, 247, 229);
+            text-align: justify; 
+}
+.titulo{
+    font-size: 6rem;
+}
+footer{
+         font-size: 1,1rem;
+         color: rgb(255, 253, 253);
+}
+.footer{
+        color: rgb(77, 62, 23);
+}
+
+.creditoFinal{
+   color: rgb(245, 188, 0);
+}
+
+}
+/*-------------------------PHP Tienda--------------*/
+.sucursales{
+    font-size: 1rem;
+    color: rgb(54, 47, 7);
+    background-color: rgb(113, 222, 241);
+    text-align: center;
+}
+.bloquefooter{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    
+}
+.localtienda{
+    display: flex;
+
+}
+.localtienda img{
+    width: 70%;
+    height: 70%;
+    padding: 1rem;
+
+}
+.bordesredondeados{
+    border-radius: 40px;
+}
+.titulo-sobrenosotros{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    background-color: rgb(226, 243, 250);
+    padding: 1rem;
+    color: rgb(39, 35, 21);
+    font-size: 2rem;
+}
+.boton_nosotros{
+    padding: 1rem;
+
+}
+.boton_nosotros ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+}
+.boton_nosotros ul a{
+    text-decoration: none;
+    color: black;
+
+}.info_nosotros{
+    padding: 1rem;
+    
+}
+.contenedor_img{
+    width: 40%;
+    
+}
+.contenedor_img img{
+    width: 40%;
+}
+
+.tienda_contenedor{
+    display: flex;
+}
+.tienda_contenedor img{
+    width: 60%;
+    padding: 1rem;
+
+}.bordesredondeados{
+    border-radius: 20px;
+}
+/*------------------------------------prueba nosotros--------------------*/
+
+.btn_nosotros{
+    padding: 1rem;
+    
+
+}
+.btn_nosotros ul li{
+    list-style-type: none;
+    display: inline-block;
+    text-decoration: none;
+    padding: 1rem;
+    font-weight: bold;
+
+}
+.btn_nosotros a{
+    text-decoration: none;
+    color: black;
+
+
+}
+/*------------------------Nosotros*/
+
+.info_nosotros{
+    padding: 1rem;
+
+
+
+}
+.contenedor_img img{
+    width: 20%;
+}
